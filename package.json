@@ -9,6 +9,9 @@
     "dev": "cross-env NODE_ENV=dev nodemon index.js",
     "tailwind": "npx tailwindcss -i ./input.css -o ./view/styles/output.css --watch"
   },
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
